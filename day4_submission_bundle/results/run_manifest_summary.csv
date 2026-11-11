@@ -1,0 +1,7 @@
+scenario,run_id,experiment_variant,retry_policy,scheduled_requests,logged_rows,duration_seconds,offered_requests_per_minute,capacity_requests_per_minute,tokens_per_answer_estimate,daily_budget_tokens,queue_peak_reported,standin_requests_seen,standin_daily_tokens_used,standin_final_rpm_limit,standin_final_tpm_limit,status_counts_json
+steady,1ea8faeb-b44e-449c-990e-87ffbf699f3d,standard,standard,306,306,300.974,61.2,122.371,2615.0,8000000,1,306,850795,1200,320000,"{""ok"":306}"
+burst,e4de7757-64ef-411e-b56b-b391fbbdd01a,standard,standard,424,424,300.336,84.8,115.092,2780.375816993464,8000000,1,452,959885,1200,320000,"{""ok"":346,""rate_limited"":78}"
+overload,b603bfb8-bc38-4a95-a28e-30264ba9f61f,budgeted_retry,retry_after_backoff_budgeted,1151,1151,302.249,230.2,115.092,2780.375816993464,8000000,1,1266,1605736,1200,320000,"{""ok"":577,""rate_limited"":572,""timeout"":2}"
+overload_naive_retry,9c597cef-73bf-44a7-a2f4-6a814de06d2f,naive_retry,immediate_unbounded,1151,1151,300.051,230.2,115.092,2780.375816993464,8000000,1,3082,1596098,1200,320000,"{""ok"":575,""rate_limited"":576}"
+limit_halved,05578b31-4311-4af0-a3e9-e007e1da38c8,standard,standard,461,461,300.336,92.2,115.092,2780.375816993464,8000000,1,501,979924,600,160000,"{""ok"":353,""rate_limited"":108}"
+daily_exhausted,66152d8a-20ec-4653-b599-e4bca076dcd8,standard,standard,346,346,359.622,57.667,115.092,2780.375816993464,480108,1,346,477869,1200,320000,"{""ok"":172,""rate_limited"":174}"

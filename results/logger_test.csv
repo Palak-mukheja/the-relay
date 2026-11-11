@@ -1,0 +1,2 @@
+request_id,scenario,source,model,start_time,first_token_ms,total_ms,status,status_code,retries,tokens_in,tokens_out,reasoning_tokens,retrieval_setting,answer_grade
+1,test,real,openai/gpt-oss-20b,2026-11-09T18:59:14.032815+00:00,850,2400,ok,200,0,1200,250,0,test,correct

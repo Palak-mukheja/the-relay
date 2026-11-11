@@ -1,0 +1,62 @@
+
+# =========================
+# Secrets and environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Python cache files
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# =========================
+# IDE and editor files
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Operating system files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs and temporary files
+# =========================
+*.log
+*.tmp
+
+# =========================
+# Temporary Day 4 input copies
+# =========================
+day4_inputs/
+day4_inputs.zip
+
+# Downloaded submission archive
+The_Relay_Day4_Submission_Bundle.zip
+# Research paper PDFs and extracted copyrighted text
+data/papers/
+data/extracted_pages.jsonl
+data/chunks_*.jsonl
+
+# Downloaded submission archive
+The_Relay_Day4_Submission_Bundle.zip

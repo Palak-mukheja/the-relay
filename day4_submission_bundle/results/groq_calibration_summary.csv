@@ -1,0 +1,4 @@
+model,requests_attempted,requests_successful,requests_failed,model_ttft_p50_ms,model_ttft_p95_ms,total_latency_p50_ms,total_latency_p95_ms,median_completion_tokens_per_second,sample_size_ttft
+openai/gpt-oss-120b,15,15,0,477.5,1161.87,485.66,1168.37,2818.63,15
+openai/gpt-oss-20b,15,15,0,698.59,1406.35,707.93,1411.35,4866.18,15
+qwen/qwen3.8-27b,14,13,1,449.44,670.95,460.35,682.76,3401.84,13

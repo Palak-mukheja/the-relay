@@ -1,0 +1,218 @@
+{
+    "source": "Real Groq measurements",
+    "models": {
+        "openai/gpt-oss-120b": {
+            "requests_attempted": 15,
+            "requests_successful": 15,
+            "requests_failed": 0,
+            "ttft": {
+                "sample_size": 15,
+                "p50_ms": 477.5,
+                "p95_ms": 1161.87,
+                "p99_ms": 1712.6,
+                "log_mu": 6.243399,
+                "log_sigma": 0.507164
+            },
+            "total_time": {
+                "sample_size": 15,
+                "p50_ms": 485.66,
+                "p95_ms": 1168.37,
+                "p99_ms": 1717.55,
+                "log_mu": 6.267084,
+                "log_sigma": 0.498521
+            },
+            "tokens_per_second": {
+                "sample_size": 15,
+                "p50_tokens_per_second": 2818.63,
+                "p95_tokens_per_second": 7757.33,
+                "mean_tokens_per_second": 3771.06,
+                "note": "Approximate completion-token throughput. Completion tokens may include reasoning tokens."
+            }
+        },
+        "openai/gpt-oss-20b": {
+            "requests_attempted": 15,
+            "requests_successful": 15,
+            "requests_failed": 0,
+            "ttft": {
+                "sample_size": 15,
+                "p50_ms": 698.59,
+                "p95_ms": 1406.35,
+                "p99_ms": 1591.74,
+                "log_mu": 6.588543,
+                "log_sigma": 0.461271
+            },
+            "total_time": {
+                "sample_size": 15,
+                "p50_ms": 707.93,
+                "p95_ms": 1411.35,
+                "p99_ms": 1595.73,
+                "log_mu": 6.596038,
+                "log_sigma": 0.459635
+            },
+            "tokens_per_second": {
+                "sample_size": 15,
+                "p50_tokens_per_second": 4866.18,
+                "p95_tokens_per_second": 8629.96,
+                "mean_tokens_per_second": 5005.17,
+                "note": "Approximate completion-token throughput. Completion tokens may include reasoning tokens."
+            }
+        },
+        "qwen/qwen3.8-27b": {
+            "requests_attempted": 14,
+            "requests_successful": 13,
+            "requests_failed": 1,
+            "ttft": {
+                "sample_size": 13,
+                "p50_ms": 449.44,
+                "p95_ms": 670.95,
+                "p99_ms": 704.41,
+                "log_mu": 5.975663,
+                "log_sigma": 0.45504
+            },
+            "total_time": {
+                "sample_size": 13,
+                "p50_ms": 460.35,
+                "p95_ms": 682.76,
+                "p99_ms": 713.46,
+                "log_mu": 6.025031,
+                "log_sigma": 0.435552
+            },
+            "tokens_per_second": {
+                "sample_size": 13,
+                "p50_tokens_per_second": 3401.84,
+                "p95_tokens_per_second": 7874.23,
+                "mean_tokens_per_second": 3824.21,
+                "note": "Approximate completion-token throughput. Completion tokens may include reasoning tokens."
+            }
+        }
+    },
+    "concurrency": {
+        "1": {
+            "requests_attempted": 1,
+            "requests_successful": 1,
+            "requests_failed": 0,
+            "ttft": {
+                "sample_size": 1,
+                "p50_ms": 647.82,
+                "p95_ms": 647.82,
+                "p99_ms": 647.82,
+                "log_mu": 6.473613,
+                "log_sigma": 0.0
+            },
+            "total_time": {
+                "sample_size": 1,
+                "p50_ms": 652.2,
+                "p95_ms": 652.2,
+                "p99_ms": 652.2,
+                "log_mu": 6.480351,
+                "log_sigma": 0.0
+            }
+        },
+        "16": {
+            "requests_attempted": 16,
+            "requests_successful": 16,
+            "requests_failed": 0,
+            "ttft": {
+                "sample_size": 16,
+                "p50_ms": 526.75,
+                "p95_ms": 683.06,
+                "p99_ms": 711.81,
+                "log_mu": 6.283665,
+                "log_sigma": 0.203543
+            },
+            "total_time": {
+                "sample_size": 16,
+                "p50_ms": 546.82,
+                "p95_ms": 702.62,
+                "p99_ms": 739.6,
+                "log_mu": 6.315049,
+                "log_sigma": 0.199453
+            }
+        },
+        "2": {
+            "requests_attempted": 2,
+            "requests_successful": 2,
+            "requests_failed": 0,
+            "ttft": {
+                "sample_size": 2,
+                "p50_ms": 567.74,
+                "p95_ms": 683.17,
+                "p99_ms": 693.43,
+                "log_mu": 6.31546,
+                "log_sigma": 0.22989
+            },
+            "total_time": {
+                "sample_size": 2,
+                "p50_ms": 583.14,
+                "p95_ms": 696.98,
+                "p99_ms": 707.1,
+                "log_mu": 6.344341,
+                "log_sigma": 0.220402
+            }
+        },
+        "4": {
+            "requests_attempted": 4,
+            "requests_successful": 4,
+            "requests_failed": 0,
+            "ttft": {
+                "sample_size": 4,
+                "p50_ms": 302.75,
+                "p95_ms": 338.35,
+                "p99_ms": 339.33,
+                "log_mu": 5.68647,
+                "log_sigma": 0.13526
+            },
+            "total_time": {
+                "sample_size": 4,
+                "p50_ms": 317.65,
+                "p95_ms": 348.07,
+                "p99_ms": 348.25,
+                "log_mu": 5.730635,
+                "log_sigma": 0.126304
+            }
+        },
+        "8": {
+            "requests_attempted": 8,
+            "requests_successful": 8,
+            "requests_failed": 0,
+            "ttft": {
+                "sample_size": 8,
+                "p50_ms": 513.41,
+                "p95_ms": 724.65,
+                "p99_ms": 731.71,
+                "log_mu": 6.218835,
+                "log_sigma": 0.311403
+            },
+            "total_time": {
+                "sample_size": 8,
+                "p50_ms": 526.07,
+                "p95_ms": 740.17,
+                "p99_ms": 746.91,
+                "log_mu": 6.248974,
+                "log_sigma": 0.302011
+            }
+        }
+    },
+    "service_limits": {
+        "rpm": {
+            "value": 30,
+            "verified_for": "openai/gpt-oss-120b"
+        },
+        "tpm": {
+            "value": 8000,
+            "source": "Console and response headers"
+        },
+        "rpd": {
+            "value": 1000,
+            "source": "Console and response headers"
+        },
+        "tpd": {
+            "value": 200000,
+            "source": "Console; not independently exhausted"
+        }
+    },
+    "concurrency_summary": {
+        "highest_successful_tested_level": 16,
+        "actual_concurrency_limit": "Unknown"
+    }
+}

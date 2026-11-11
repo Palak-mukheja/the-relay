@@ -1,0 +1,97 @@
+question_id,question_type,setting,answerable,fetch_k,keep_k,returned_chunks,expected_gold_pages,matched_gold_pages,page_recall,page_precision_proxy,mrr,all_gold_pages_found,expected_source_groups,matched_source_groups,source_group_recall,all_source_groups_found,wrong_paper_chunks,wrong_paper_rate,unanswerable_has_candidates,top_result_paper,top_result_pages,top_bm25_score
+1,direct,S,True,6,6,6,1,1,1.0,0.3333,0.3333,True,1,1,1.0,True,2.0,0.3333,,Attention Is All You Need,9-9,25.58611
+2,direct,S,True,6,6,6,1,1,1.0,0.1667,1.0,True,1,1,1.0,True,2.0,0.3333,,Attention Is All You Need,7-7,12.53771
+3,table,S,True,6,6,6,1,1,1.0,0.6667,1.0,True,1,1,1.0,True,0.0,0.0,,Attention Is All You Need,5-6,34.04165
+4,table,S,True,6,6,6,1,1,1.0,0.5,1.0,True,1,1,1.0,True,0.0,0.0,,Attention Is All You Need,8-8,30.47122
+5,equation,S,True,6,6,6,1,0,0.0,0.0,0.0,False,1,0,0.0,False,6.0,1.0,,Moshi,53-54,7.73682
+6,multi-passage,S,True,6,6,6,2,2,1.0,0.5,1.0,True,2,2,1.0,True,2.0,0.3333,,Attention Is All You Need,6-6,25.53868
+7,multi-passage,S,True,6,6,6,2,2,1.0,0.5,0.5,True,2,2,1.0,True,2.0,0.3333,,Dynamic Chunking,35-35,20.48618
+8,unanswerable,S,False,6,6,6,0,0,,,,,0,0,,,,,True,Attention Is All You Need,8-8,18.567
+9,contradiction,S,True,6,6,6,2,2,1.0,0.8333,1.0,True,2,2,1.0,True,0.0,0.0,,Attention Is All You Need,8-8,30.80746
+10,direct,S,True,6,6,6,2,1,0.5,0.3333,1.0,False,2,1,0.5,False,0.0,0.0,,Moshi,11-11,20.91867
+11,direct,S,True,6,6,6,1,1,1.0,0.1667,0.3333,True,1,1,1.0,True,3.0,0.5,,Dynamic Chunking,34-34,11.10684
+12,multi-passage,S,True,6,6,6,3,1,0.3333,0.5,0.5,False,3,1,0.3333,False,0.0,0.0,,Moshi,2-3,21.52128
+13,table,S,True,6,6,6,1,1,1.0,0.5,1.0,True,1,1,1.0,True,1.0,0.1667,,Moshi,29-29,20.79414
+14,multi-passage,S,True,6,6,6,3,2,0.6667,0.3333,1.0,False,2,2,1.0,True,0.0,0.0,,Moshi,29-29,23.41571
+15,multi-passage,S,True,6,6,6,3,1,0.3333,0.1667,0.5,False,2,1,0.5,False,2.0,0.3333,,Dynamic Chunking,5-6,8.72739
+16,equation,S,True,6,6,6,1,0,0.0,0.0,0.0,False,1,0,0.0,False,0.0,0.0,,Dynamic Chunking,3-4,10.09324
+17,direct,S,True,6,6,6,1,1,1.0,0.5,1.0,True,1,1,1.0,True,0.0,0.0,,Dynamic Chunking,8-8,11.37133
+18,table,S,True,6,6,6,2,2,1.0,0.6667,1.0,True,1,1,1.0,True,0.0,0.0,,Dynamic Chunking,12-12,23.60347
+19,multi-passage,S,True,6,6,6,2,2,1.0,0.5,1.0,True,2,2,1.0,True,2.0,0.3333,,Dynamic Chunking,19-20,19.02031
+20,table-figure,S,True,6,6,6,2,2,1.0,0.6667,1.0,True,1,1,1.0,True,0.0,0.0,,Dynamic Chunking,12-12,25.03501
+21,terminology-clash,S,True,6,6,6,6,0,0.0,0.0,0.0,False,2,0,0.0,False,0.0,0.0,,Dynamic Chunking,8-8,11.84864
+22,cross-paper,S,True,6,6,6,3,1,0.3333,0.1667,0.25,False,2,1,0.5,False,1.0,0.1667,,Attention Is All You Need,9-9,22.08905
+23,unanswerable,S,False,6,6,6,0,0,,,,,0,0,,,,,True,Moshi,26-26,14.13024
+24,unanswerable,S,False,6,6,6,0,0,,,,,0,0,,,,,True,Moshi,2-2,11.02692
+1,direct,M,True,4,4,4,1,1,1.0,0.25,0.3333,True,1,1,1.0,True,1.0,0.25,,Dynamic Chunking,35-35,22.50626
+2,direct,M,True,4,4,4,1,1,1.0,0.5,1.0,True,1,1,1.0,True,1.0,0.25,,Attention Is All You Need,7-7,14.38747
+3,table,M,True,4,4,4,1,1,1.0,0.75,1.0,True,1,1,1.0,True,0.0,0.0,,Attention Is All You Need,5-6,33.01922
+4,table,M,True,4,4,4,1,1,1.0,0.5,1.0,True,1,1,1.0,True,0.0,0.0,,Attention Is All You Need,8-9,35.91948
+5,equation,M,True,4,4,4,1,0,0.0,0.0,0.0,False,1,0,0.0,False,4.0,1.0,,Dynamic Chunking,14-15,6.56147
+6,multi-passage,M,True,4,4,4,2,2,1.0,0.75,1.0,True,2,2,1.0,True,0.0,0.0,,Attention Is All You Need,6-6,32.20049
+7,multi-passage,M,True,4,4,4,2,2,1.0,0.5,0.5,True,2,2,1.0,True,1.0,0.25,,Dynamic Chunking,35-35,16.9495
+8,unanswerable,M,False,4,4,4,0,0,,,,,0,0,,,,,True,Attention Is All You Need,8-9,18.01311
+9,contradiction,M,True,4,4,4,2,2,1.0,0.75,1.0,True,2,2,1.0,True,0.0,0.0,,Attention Is All You Need,8-9,28.41402
+10,direct,M,True,4,4,4,2,1,0.5,0.5,1.0,False,2,1,0.5,False,0.0,0.0,,Moshi,11-11,19.3495
+11,direct,M,True,4,4,4,1,1,1.0,0.25,0.3333,True,1,1,1.0,True,3.0,0.75,,Dynamic Chunking,34-34,10.42511
+12,multi-passage,M,True,4,4,4,3,2,0.6667,0.5,0.5,False,3,2,0.6667,False,0.0,0.0,,Moshi,2-3,19.17
+13,table,M,True,4,4,4,1,1,1.0,0.5,1.0,True,1,1,1.0,True,0.0,0.0,,Moshi,29-30,21.3115
+14,multi-passage,M,True,4,4,4,3,3,1.0,0.75,1.0,True,2,2,1.0,True,0.0,0.0,,Moshi,29-30,18.25864
+15,multi-passage,M,True,4,4,4,3,1,0.3333,0.25,0.5,False,2,1,0.5,False,1.0,0.25,,Dynamic Chunking,5-6,7.41183
+16,equation,M,True,4,4,4,1,0,0.0,0.0,0.0,False,1,0,0.0,False,0.0,0.0,,Dynamic Chunking,3-4,8.17334
+17,direct,M,True,4,4,4,1,1,1.0,0.5,1.0,True,1,1,1.0,True,0.0,0.0,,Dynamic Chunking,8-8,9.87646
+18,table,M,True,4,4,4,2,2,1.0,0.75,1.0,True,1,1,1.0,True,0.0,0.0,,Dynamic Chunking,12-13,22.6009
+19,multi-passage,M,True,4,4,4,2,2,1.0,1.0,1.0,True,2,2,1.0,True,0.0,0.0,,Dynamic Chunking,19-20,13.51867
+20,table-figure,M,True,4,4,4,2,2,1.0,0.75,1.0,True,1,1,1.0,True,0.0,0.0,,Dynamic Chunking,12-13,24.92472
+21,terminology-clash,M,True,4,4,4,6,0,0.0,0.0,0.0,False,2,0,0.0,False,0.0,0.0,,Dynamic Chunking,5-6,12.99469
+22,cross-paper,M,True,4,4,4,3,1,0.3333,0.25,0.3333,False,2,1,0.5,False,1.0,0.25,,Attention Is All You Need,9-9,18.16221
+23,unanswerable,M,False,4,4,4,0,0,,,,,0,0,,,,,True,Moshi,54-55,14.04441
+24,unanswerable,M,False,4,4,4,0,0,,,,,0,0,,,,,True,Moshi,2-2,9.81701
+1,direct,L,True,2,2,2,1,1,1.0,0.5,1.0,True,1,1,1.0,True,1.0,0.5,,Attention Is All You Need,3-5,20.31031
+2,direct,L,True,2,2,2,1,1,1.0,1.0,1.0,True,1,1,1.0,True,0.0,0.0,,Attention Is All You Need,6-8,13.16788
+3,table,L,True,2,2,2,1,1,1.0,1.0,1.0,True,1,1,1.0,True,0.0,0.0,,Attention Is All You Need,5-6,29.3726
+4,table,L,True,2,2,2,1,1,1.0,0.5,1.0,True,1,1,1.0,True,0.0,0.0,,Attention Is All You Need,7-9,34.20373
+5,equation,L,True,2,2,2,1,0,0.0,0.0,0.0,False,1,0,0.0,False,2.0,1.0,,Dynamic Chunking,13-14,5.40826
+6,multi-passage,L,True,2,2,2,2,2,1.0,1.0,1.0,True,2,2,1.0,True,0.0,0.0,,Attention Is All You Need,5-6,25.97106
+7,multi-passage,L,True,2,2,2,2,1,0.5,0.5,1.0,False,2,1,0.5,False,1.0,0.5,,Attention Is All You Need,9-10,17.07525
+8,unanswerable,L,False,2,2,2,0,0,,,,,0,0,,,,,True,Attention Is All You Need,7-9,17.46056
+9,contradiction,L,True,2,2,2,2,1,0.5,0.5,1.0,False,2,1,0.5,False,0.0,0.0,,Attention Is All You Need,7-9,27.00016
+10,direct,L,True,2,2,2,2,1,0.5,0.5,1.0,False,2,1,0.5,False,0.0,0.0,,Moshi,10-11,25.48084
+11,direct,L,True,2,2,2,1,1,1.0,0.5,0.5,True,1,1,1.0,True,1.0,0.5,,Dynamic Chunking,34-35,8.65961
+12,multi-passage,L,True,2,2,2,3,1,0.3333,0.5,1.0,False,3,1,0.3333,False,0.0,0.0,,Moshi,1-2,19.36501
+13,table,L,True,2,2,2,1,1,1.0,1.0,1.0,True,1,1,1.0,True,0.0,0.0,,Moshi,28-30,19.42351
+14,multi-passage,L,True,2,2,2,3,3,1.0,1.0,1.0,True,2,2,1.0,True,0.0,0.0,,Moshi,28-30,15.93901
+15,multi-passage,L,True,2,2,2,3,0,0.0,0.0,0.0,False,2,0,0.0,False,0.0,0.0,,Moshi,36-38,7.72757
+16,equation,L,True,2,2,2,1,1,1.0,0.5,1.0,True,1,1,1.0,True,0.0,0.0,,Dynamic Chunking,5-7,7.39478
+17,direct,L,True,2,2,2,1,1,1.0,0.5,1.0,True,1,1,1.0,True,0.0,0.0,,Dynamic Chunking,8-9,7.01242
+18,table,L,True,2,2,2,2,2,1.0,0.5,1.0,True,1,1,1.0,True,0.0,0.0,,Dynamic Chunking,12-13,18.01864
+19,multi-passage,L,True,2,2,2,2,2,1.0,1.0,1.0,True,2,2,1.0,True,0.0,0.0,,Dynamic Chunking,19-21,12.85387
+20,table-figure,L,True,2,2,2,2,2,1.0,1.0,1.0,True,1,1,1.0,True,0.0,0.0,,Dynamic Chunking,12-13,25.00884
+21,terminology-clash,L,True,2,2,2,6,1,0.1667,0.5,0.5,False,2,1,0.5,False,0.0,0.0,,Dynamic Chunking,5-7,12.00868
+22,cross-paper,L,True,2,2,2,3,0,0.0,0.0,0.0,False,2,0,0.0,False,0.0,0.0,,Attention Is All You Need,9-10,18.1607
+23,unanswerable,L,False,2,2,2,0,0,,,,,0,0,,,,,True,Moshi,54-57,14.3097
+24,unanswerable,L,False,2,2,2,0,0,,,,,0,0,,,,,True,Moshi,1-2,8.80194
+1,direct,M+R,True,8,4,4,1,1,1.0,0.25,0.3333,True,1,1,1.0,True,1.0,0.25,,Dynamic Chunking,35-35,22.50626
+2,direct,M+R,True,8,4,4,1,1,1.0,0.5,1.0,True,1,1,1.0,True,1.0,0.25,,Attention Is All You Need,7-7,14.38747
+3,table,M+R,True,8,4,4,1,1,1.0,0.75,1.0,True,1,1,1.0,True,0.0,0.0,,Attention Is All You Need,5-6,33.01922
+4,table,M+R,True,8,4,4,1,1,1.0,0.5,1.0,True,1,1,1.0,True,0.0,0.0,,Attention Is All You Need,8-9,35.91948
+5,equation,M+R,True,8,4,4,1,0,0.0,0.0,0.0,False,1,0,0.0,False,4.0,1.0,,Dynamic Chunking,14-15,6.56147
+6,multi-passage,M+R,True,8,4,4,2,2,1.0,0.75,1.0,True,2,2,1.0,True,0.0,0.0,,Attention Is All You Need,6-6,32.20049
+7,multi-passage,M+R,True,8,4,4,2,2,1.0,0.5,1.0,True,2,2,1.0,True,1.0,0.25,,Attention Is All You Need,9-9,16.67486
+8,unanswerable,M+R,False,8,4,4,0,0,,,,,0,0,,,,,True,Attention Is All You Need,8-9,18.01311
+9,contradiction,M+R,True,8,4,4,2,2,1.0,0.75,1.0,True,2,2,1.0,True,0.0,0.0,,Attention Is All You Need,8-9,28.41402
+10,direct,M+R,True,8,4,4,2,1,0.5,0.5,1.0,False,2,1,0.5,False,0.0,0.0,,Moshi,11-11,19.3495
+11,direct,M+R,True,8,4,4,1,1,1.0,0.25,0.3333,True,1,1,1.0,True,3.0,0.75,,Dynamic Chunking,34-34,10.42511
+12,multi-passage,M+R,True,8,4,4,3,2,0.6667,0.5,0.5,False,3,2,0.6667,False,0.0,0.0,,Moshi,2-3,19.17
+13,table,M+R,True,8,4,4,1,1,1.0,0.5,1.0,True,1,1,1.0,True,0.0,0.0,,Moshi,29-30,21.3115
+14,multi-passage,M+R,True,8,4,4,3,3,1.0,0.75,1.0,True,2,2,1.0,True,0.0,0.0,,Moshi,29-30,18.25864
+15,multi-passage,M+R,True,8,4,4,3,1,0.3333,0.25,0.5,False,2,1,0.5,False,1.0,0.25,,Dynamic Chunking,5-6,7.41183
+16,equation,M+R,True,8,4,4,1,0,0.0,0.0,0.0,False,1,0,0.0,False,0.0,0.0,,Dynamic Chunking,3-4,8.17334
+17,direct,M+R,True,8,4,4,1,1,1.0,0.5,1.0,True,1,1,1.0,True,0.0,0.0,,Dynamic Chunking,8-8,9.87646
+18,table,M+R,True,8,4,4,2,2,1.0,0.75,1.0,True,1,1,1.0,True,0.0,0.0,,Dynamic Chunking,12-13,22.6009
+19,multi-passage,M+R,True,8,4,4,2,1,0.5,0.75,1.0,False,2,1,0.5,False,0.0,0.0,,Dynamic Chunking,19-20,13.51867
+20,table-figure,M+R,True,8,4,4,2,2,1.0,0.75,1.0,True,1,1,1.0,True,0.0,0.0,,Dynamic Chunking,12-13,24.92472
+21,terminology-clash,M+R,True,8,4,4,6,0,0.0,0.0,0.0,False,2,0,0.0,False,0.0,0.0,,Dynamic Chunking,5-6,12.99469
+22,cross-paper,M+R,True,8,4,4,3,1,0.3333,0.25,0.3333,False,2,1,0.5,False,1.0,0.25,,Attention Is All You Need,9-9,18.16221
+23,unanswerable,M+R,False,8,4,4,0,0,,,,,0,0,,,,,True,Moshi,54-55,14.04441
+24,unanswerable,M+R,False,8,4,4,0,0,,,,,0,0,,,,,True,Moshi,2-2,9.81701

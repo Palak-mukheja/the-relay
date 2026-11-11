@@ -1,0 +1,9 @@
+﻿fastapi==0.162.2
+httpx==0.28.1
+numpy==2.5.4
+pandas==3.1.1
+pymupdf==2.1
+python-dotenv==1.2.4
+rank-bm25==0.2.2
+tiktoken==0.14.0
+uvicorn==0.54.0

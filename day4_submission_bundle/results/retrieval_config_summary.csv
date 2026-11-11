@@ -1,0 +1,5 @@
+setting,chunk_words,overlap_words,avg_chunks,wrong_paper_rate,page_recall,precision_proxy,mrr,source_recall,full_source_coverage,provenance
+S,200,40,6,0.1825,0.7222,0.381,0.6865,0.754,0.6667,Previously reported Day 2 retrieval-only run; raw metrics file not included in current upload
+M,400,80,4,0.1429,0.754,0.4762,0.6905,0.7698,0.6667,Previously reported Day 2 retrieval-only run; raw metrics file not included in current upload
+L,800,160,2,0.119,0.7143,0.5952,0.8095,0.7302,0.619,Previously reported Day 2 retrieval-only run; raw metrics file not included in current upload
+M+R,400,80,4,0.1429,0.7302,0.4643,0.7143,0.746,0.619,Previously reported Day 2 retrieval-only run; raw metrics file not included in current upload

@@ -1,0 +1,7 @@
+scenario,requests,successful,rate_limited,timeouts,success_rate_pct,validated_response_p50_ms,validated_response_p95_ms,validated_response_p99_ms,model_ttft_p50_ms,model_ttft_p95_ms,model_ttft_p99_ms,total_retries,requests_with_retries,mean_retry_wait_per_request_ms,mean_retry_wait_per_retrying_request_ms,mean_work_ms,mean_queue_wait_ms,max_queue_wait_ms,mean_tokens_per_success
+steady,306,306,0,0,100.0,847.34,1564.37,2473.35,577.69,1287.32,1930.79,0,0,0.0,0.0,937.23,0.08,0.7,2780.38
+burst,424,346,78,0,81.6,938.65,1922.48,2301.31,666.07,1651.89,2066.12,28,28,71.74,1086.4,881.36,0.25,67.39,2774.23
+overload,1151,577,572,2,50.13,902.89,1953.32,11798.0,629.44,1260.77,1647.87,115,115,951.32,9521.47,513.28,0.15,70.63,2773.22
+overload_naive_retry,1151,575,576,0,49.96,874.77,1576.0,2298.58,619.81,1261.77,1651.28,1931,690,0.05,0.08,557.76,0.09,37.17,2775.82
+limit_halved,461,353,108,0,76.57,849.41,1575.31,5824.93,589.97,1164.24,1628.39,40,40,777.21,8957.3,703.78,0.05,0.12,2775.99
+daily_exhausted,346,172,174,0,49.71,876.27,1459.23,,576.13,1214.99,,0,0,0.0,0.0,484.77,0.27,62.03,2778.31

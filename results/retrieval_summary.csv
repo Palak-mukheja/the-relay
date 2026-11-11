@@ -1,0 +1,5 @@
+wrong_paper_chunk_rate,setting,questions_tested,answerable_questions,unanswerable_questions,average_chunks_returned,mean_page_recall,mean_page_precision_proxy,mean_mrr,full_gold_page_coverage_pct,mean_source_group_recall,all_source_groups_found_pct,unanswerable_with_retrieved_candidates
+0.119,L,24,21,3,2.0,0.7143,0.5952,0.8095,61.9,0.7302,61.9,3
+0.1429,M,24,21,3,4.0,0.754,0.4762,0.6905,66.67,0.7698,66.67,3
+0.1429,M+R,24,21,3,4.0,0.7302,0.4643,0.7143,61.9,0.746,61.9,3
+0.1825,S,24,21,3,6.0,0.7222,0.381,0.6865,61.9,0.754,66.67,3

@@ -1,0 +1,5 @@
+answerable,question_count,status,share_within_answerability_pct
+False,3,refused,100.0
+True,15,answered,71.43
+True,4,refused,19.05
+True,2,unverified,9.52
